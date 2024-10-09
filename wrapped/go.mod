@@ -1,4 +1,4 @@
-module correct
+module wrapped
 
 go 1.22.5
 

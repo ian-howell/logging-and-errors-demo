@@ -1,4 +1,4 @@
-module wrong
+module logged
 
 go 1.22.5
 

@@ -26,7 +26,6 @@ func Reconcile(c *Cluster) error {
 		return err
 	}
 	return nil
-
 }
 
 func UpdateNode(n *Node) error {
