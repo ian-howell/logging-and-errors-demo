@@ -25,7 +25,7 @@ func toStack(err error) string {
 }
 
 func main() {
-	if err := Reconcile(&Cluster{}); err != nil {
+	if err := Reconcile(&Cluster{Node: &Node{}}); err != nil {
 		log.Printf("Failed to reconcile cluster: %v", toStack(err))
 	}
 }
